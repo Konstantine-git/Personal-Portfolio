@@ -1,0 +1,370 @@
+*{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+/* Section */
+
+
+    .header{
+        width: 100%;
+        height: 100px;
+        background-color: #060d1a;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .link-wrapper{
+        width: 50%;
+        height: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .header a{
+        color: #e1f1ff;
+        font-size: 22px;
+        text-decoration: none;
+        transition: 0.4s;
+    }
+    .header a:hover{
+        color: #d9a21b;
+    }
+
+    .hero{
+        width: 100%;
+        height: 600px;
+        background-image: url(Images/Hero_Cover.jpeg);
+        background-size: cover;
+        background-position: center;
+    }
+    .wrapper{
+        width: 100%; ;
+        height: 100%;
+        background-color: #060d1a4e;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .wrapper-inner{
+        width: 60%;
+        height: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: flex-start;
+    }
+    .wrapper-inner h2{
+        width: 200px;
+        margin: 0;
+        font-size: 30px;
+        padding: 5px 0;
+        background-color: #d9a21b;
+        border-radius: 2px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .wrapper-inner h1{
+        margin: 0;
+        font-size: 70px;
+        color: #d9a21b;
+    }
+    .wrapper-inner h3{
+        margin: 0;
+        font-size: 20px;
+        color: #baddfb;
+        font-weight: 500;
+    }
+    .button-wrapper{
+        margin: 20px 0;
+    }
+    .button-wrapper a{
+        font-size: 20px;
+        text-decoration: none;
+        transition: 0.4s;
+        padding: 10px;
+        border-radius: 2px;
+    }
+    .contact_link{
+        color: #e1f1ff;
+        border: 1px solid #d9a21b;
+        background-color: #d9a21b;
+    }
+    .contact_link:hover{
+        color: #d9a21b;
+        background-color: transparent;
+        border: 1px solid #d9a21b;
+    }
+    .proj_link{
+        color: #d9a21b;
+        border: 1px solid #d9a21b;
+    }
+    .proj_link:hover{
+        color: #e1f1ff;
+        background-color: #d9a21b;
+        border: 1px solid #d9a21b;
+    }
+
+    .end-section{
+        width: 100%;
+        height: 500px;
+        background-color: #060d1a;
+    }
+    .skills-wrapper{
+        width: 100%;
+        height: 100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .skills-wrapper p{
+        font-size: 20px;
+        font-weight: 500;
+        color: #e1f1ff;
+    }
+    .end-section h2{
+        margin: 0;
+        font-size: 30px;
+        color: #d9a21b;
+    }
+    .skillbar-wrapper{
+        width: 100%;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .skill{
+        width: 100px;
+        height: 5px;
+        background-color: #d9a21b;
+    }
+    .bar{
+        width: 300px;
+        height: 5px;
+        background-color: #e1f1ff;
+    }
+
+    .footer{
+        width: 100%;
+        height: 200px;
+        background-color: #020202;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer h3{
+        color: #e1f1ff;
+    }
+    .footer h2{
+        color: #d9a21b;
+        font-size: 35px;
+        margin: 0;
+    }
+    .footer-link-wrapper{
+        width: 50%;
+        height: 100px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .footer-link-wrapper a{
+        color: #e1f1ff;
+        font-size: 20px;
+        text-decoration: none;
+        border-bottom: 1px solid transparent;
+        border-radius: 1px;
+        transition: 0.4s;
+    }
+    .footer-link-wrapper a:hover{
+        border-bottom: 1px solid #e1f1ff;
+    }
+
+
+/* Section */
+
+@media (max-width: 1000px){
+    .header{
+        width: 100%;
+        height: 100px;
+        background-color: #060d1a;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .link-wrapper{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .header a{
+        color: #e1f1ff;
+        font-size: 18px;
+        text-decoration: none;
+        transition: 0.4s;
+    }
+    .header a:hover{
+        color: #d9a21b;
+    }
+
+    .hero{
+        width: 100%;
+        height: 600px;
+        background-image: url(Images/Hero_Cover.jpeg);
+        background-size: cover;
+        background-position: center;
+    }
+    .wrapper{
+        width: 100%;
+        height: 100%;
+        background-color: #060d1a4e;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .wrapper-inner{
+        width: 100%;
+        height: 40%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .wrapper-inner h2{
+        width: 150px;
+        margin: 0;
+        font-size: 25px;
+        padding: 5px 0;
+        background-color: #d9a21b;
+        border-radius: 2px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .wrapper-inner h1{
+        margin: 0;
+        font-size: 50px;
+        color: #d9a21b;
+    }
+    .wrapper-inner h3{
+        margin: 0;
+        font-size: 15px;
+        color: #baddfb;
+        font-weight: 500;
+    }
+    .button-wrapper{
+        margin: 20px;
+    }
+    .button-wrapper a{
+        font-size: 20px;
+        text-decoration: none;
+        transition: 0.4s;
+        padding: 10px;
+        border-radius: 2px;
+    }
+    .contact_link{
+        color: #e1f1ff;
+        border: 1px solid #d9a21b;
+        background-color: #d9a21b;
+    }
+    .contact_link:hover{
+        color: #d9a21b;
+        background-color: transparent;
+        border: 1px solid #d9a21b;
+    }
+    .proj_link{
+        color: #d9a21b;
+        border: 1px solid #d9a21b;
+    }
+    .proj_link:hover{
+        color: #e1f1ff;
+        background-color: #d9a21b;
+        border: 1px solid #d9a21b;
+    }
+
+    .end-section{
+        width: 100%;
+        height: 500px;
+        background-color: #060d1a;
+    }
+    .skills-wrapper{
+        width: 100%;
+        height: 100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .skills-wrapper p{
+        font-size: 20px;
+        font-weight: 500;
+        color: #e1f1ff;
+    }
+    .end-section h2{
+        margin: 0;
+        font-size: 30px;
+        color: #d9a21b;
+    }
+    .skillbar-wrapper{
+        width: 100%;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .skill{
+        width: 100px;
+        height: 5px;
+        background-color: #d9a21b;
+    }
+    .bar{
+        width: 300px;
+        height: 5px;
+        background-color: #e1f1ff;
+    }
+    .footer{
+        width: 100%;
+        height: 200px;
+        background-color: rgb(2, 2, 2);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer h3{
+        color: #e1f1ff;
+        font-size: 18px;
+    }
+    .footer h2{
+        color: #d9a21b;
+        font-size: 25px;
+        margin: 0;
+    }
+    .footer-link-wrapper{
+        width: 100%;
+        height: 100px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .footer-link-wrapper a{
+        color: #e1f1ff;
+        text-decoration: none;
+        font-size: 15px;
+        border-bottom: 1px solid transparent;
+        border-radius: 1px;
+        transition: 0.4s;
+    }
+    .footer-link-wrapper a:hover{
+        border-bottom: 1px solid #e1f1ff;
+    }
+}
